@@ -1,0 +1,149 @@
+body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: rgb(248, 124, 110);
+    padding: 50px;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* #first{
+    border: 10px solid aqua;
+}
+
+#second {
+    background-color: beige;
+} */
+
+.container {
+    height: 580px;
+    width: 100%;
+    display: flex;
+
+}
+
+.firstBox {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.firstBox>h1 {
+    color: white;
+     font-size: 50px;
+     padding-left: 80px;
+     font-weight: bold;
+
+
+}
+
+.firstBox>p {
+    font-size: 16px;
+    color: white;
+    padding-left: 80px;
+    padding-right: 60px;
+    text-align: justify;
+    
+}
+
+.secondBox {
+    /* background-color: brown; */
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.ruban {
+    height: 50px;
+    width: 69%;
+    background-color: rgb(121, 85, 162);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 10% white;
+}
+
+.card {
+    background-color: white;
+    height: 80%;
+    width: 69%;
+    margin: 20px;
+    border-radius: 10px;
+    
+
+}
+
+form {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* flex-direction: column;
+align-items: center;  */
+
+}
+
+input {
+       height: 50px;
+    width: 95%;
+    border-radius: 5px;
+    outline-color: purple;
+    border: none;
+    
+
+}
+
+button {
+    height: 50px;
+    width: 97%;
+    background-color: rgb(42, 197, 135);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+
+}
+
+form>p {
+    color: grey;
+    font-size: 12px;
+    
+
+}
+
+span {
+    color: red;
+}
+/* .textleft {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    font-weight: bold;
+    padding-right: 900px;
+ 
+
+}
+
+.textleft>h1 {
+    font-size: 50px;
+    padding-top: 250px;
+}
+
+.textleft>p {
+    font-size: 16px;
+
+} */
